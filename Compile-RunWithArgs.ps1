@@ -8,6 +8,7 @@ function Compile-CWithArgs {
         [string]$executableName
     )
 
+    Clear-Host
     # Split args into array and combine them with spaces
     $inputArgs = $null
     if($inputArgs){
